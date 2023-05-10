@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -12,7 +13,7 @@ body {
 }
 
 .logo{
-    width: 175px;
+    width: 160px;
     padding-left: 1vw;
 }
 
@@ -27,7 +28,7 @@ header{
 
 nav{
     display: flex;
-    padding-right: 1vw;
+    padding-right: -2vw;
     align-items: center;
 }
 
@@ -35,7 +36,7 @@ li{
     font-weight:600;
     font-size: 12px;
     text-transform: uppercase;
-    padding: 20px;
+    padding: 15px;
     list-style: none;
 }
 
@@ -45,7 +46,7 @@ a{
 }
 
 .botao{
-    background-color: #B535F6;
+    background-color: #b535f6;
     color:aliceblue;
     width: 150px;
     height: 35px;
@@ -60,4 +61,61 @@ a{
     transition: .5s;
     background-color:aliceblue;
     color:#02021C;
+}
+
+main{
+    font-family: 'Girlroy',sans-serif ;
+    text-transform: uppercase;
+    display:flex;
+    flex-direction: column;
+    height: 93vh;
+    justify-content: flex-end;
+    align-items: center;
+    background-image:url("/img/5BPIVPDSDJMPFGNBG5IQWZ77K4.jpg");
+    background-size: 100%;
+}
+
+h2{
+    color: #ff00e5;
+    font-size: 56.5px;
+    margin-bottom: -30px;
+}
+
+h1{
+    font-size: 85px;
+    margin-bottom: -15px;
+}
+
+h3{
+    font-size: 34.2px;
+    font-weight: 200;
+}
+
+button{ 
+    background-color: #b535f6;
+    color:aliceblue;
+    width: 165px;
+    height: 35px;
+    border-radius: 20px;
+    border: transparent;
+    font-weight: 700;
+    font-size: 15px;
+    text-transform: uppercase;
+    border: 2px solid #b535f6;
+    margin: 20px;
+}
+
+button:hover{
+    transition: .5s;
+    background-color:transparent;
+    color:aliceblue;
+    border: 2px solid #b535f6;
+
+}
+
+p{
+    text-transform: lowercase;
+    text-align: center;
+    font-size: 10px;
+    padding-bottom: 7vh;
 }
