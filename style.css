@@ -55,12 +55,14 @@ a{
     font-weight: 700;
     font-size: 12px;
     text-transform: uppercase;
+    border-color: transparent;
 }
 
 .botao:hover{
     transition: .5s;
     background-color:aliceblue;
     color:#02021C;
+    border-color: transparent;
 }
 
 main{

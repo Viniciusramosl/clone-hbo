@@ -68,47 +68,46 @@ a{
 body{
     background-image:url(/img/netflix-library.webp);
     background-size: cover; 
-
 }
 
  
 main{
     color: aliceblue;
-    background: radial-gradient(circle at 80% 50% , rgba(27, 1, 61, 0.7) , #100224 40% );
+    background: radial-gradient(circle at 75% 50% , rgba(44, 3, 78, 0.7) , #10002b 30% );
     height: 93vh;
+    width: 100vw;
     font-family: 'Girlroy',sans-serif ;
     display:flex;
     flex-direction: column;
-    justify-content: flex;
     align-items: center;
     
 } 
 
 .titulo{
-    font-size: 3vw;
-    font-weight: 200;
+    font-size: 30px;
+    font-weight: 400;
     padding-top: 3vw;
-    padding-bottom: 1vw;
+    padding-bottom: 1vh;
 }
 
 .subtitulo{
-    font-size: 1vw;
+    font-size: 15px;
     font-weight: 200;
-
+    margin: 6vh;
 }
 
 section{
     display: flex;
-    justify-content: center;
-    padding: 3vw;
+    justify-content: space-evenly;
+    width: 100vw;
+    align-content: space-between;
 }
 
 div{
-    background: linear-gradient(to bottom,  rgba(97, 75, 100, 0.322) 80%,  rgba(0,0,0,0) );
-    height: 400px;
-    width: 400px;
-    border-radius: 5px;
-    margin-left: 3vw;
+    background: linear-gradient(to bottom,  rgba(110, 39, 138, 0.253) 40%,  rgba(0,0,0,0) );
+    height: 40vh;
+    width: 25vw;
+    border-radius: 15px;
     font-family: 'Girlroy',sans-serif ;
     display:flex;
     flex-direction: column;
@@ -116,30 +115,55 @@ div{
     align-items: center;
 }
 
+div:hover{
+    transition: 1s;
+    background: linear-gradient(to bottom,  rgba(142, 72, 199, 0.253) 40%,  rgba(0,0,0,0) );
+}
+
+.economize{
+    border: 2px solid #9f35f6;}
+
+h2{
+    font-size: 30px;
+    margin-top: 5vh;
+}
+
+h1{
+    font-size: 50px;
+    padding: 20px;
+}
+
+h3{
+    font-size: 15px;
+    font-weight: 200;
+}
+
 button{
-    background-color: #b535f6;
+    
+    background-color: #9f35f6;
     color:aliceblue;
-    width: 300px;
-    height: 35px;
-    border-radius: 20px;
+    width: 350px;
+    height: 50px;
+    border-radius: 25px;
     border: transparent;
     font-weight: 700;
-    font-size: 15px;
+    font-size: 18px;
     text-transform: uppercase;
-    border: 2px solid #b535f6;
-    margin: 20px;
+    border: 2px solid #9f35f6;
+    margin-top: 4vh;
 }
 
 button:hover{
     transition: .5s;
     background-color:transparent;
     color:aliceblue;
-    border: 2px solid #b535f6;
+    border: 2px solid #9f35f6;
 
 }
 
 p{
     font-weight: 200;
     text-align: center;
-    font-size: 0.5vw;
+    font-size: 12px;
+    margin-top: 6vh;
 }
