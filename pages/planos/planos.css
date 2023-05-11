@@ -76,4 +76,70 @@ main{
     color: aliceblue;
     background: radial-gradient(circle at 80% 50% , rgba(27, 1, 61, 0.7) , #100224 40% );
     height: 93vh;
+    font-family: 'Girlroy',sans-serif ;
+    display:flex;
+    flex-direction: column;
+    justify-content: flex;
+    align-items: center;
+    
+} 
+
+.titulo{
+    font-size: 3vw;
+    font-weight: 200;
+    padding-top: 3vw;
+    padding-bottom: 1vw;
+}
+
+.subtitulo{
+    font-size: 1vw;
+    font-weight: 200;
+
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    padding: 3vw;
+}
+
+div{
+    background: linear-gradient(to bottom,  rgba(97, 75, 100, 0.322) 80%,  rgba(0,0,0,0) );
+    height: 400px;
+    width: 400px;
+    border-radius: 5px;
+    margin-left: 3vw;
+    font-family: 'Girlroy',sans-serif ;
+    display:flex;
+    flex-direction: column;
+    justify-content: flex;
+    align-items: center;
+}
+
+button{
+    background-color: #b535f6;
+    color:aliceblue;
+    width: 300px;
+    height: 35px;
+    border-radius: 20px;
+    border: transparent;
+    font-weight: 700;
+    font-size: 15px;
+    text-transform: uppercase;
+    border: 2px solid #b535f6;
+    margin: 20px;
+}
+
+button:hover{
+    transition: .5s;
+    background-color:transparent;
+    color:aliceblue;
+    border: 2px solid #b535f6;
+
+}
+
+p{
+    font-weight: 200;
+    text-align: center;
+    font-size: 0.5vw;
 }
